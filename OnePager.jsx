@@ -1093,7 +1093,7 @@ export default function OnePager() {
 
           <div className="grid sm:grid-cols-3 gap-5 max-w-3xl mx-auto">
             <a
-              href="mailto:devsculpt10@gmail.com"
+              href="mailto:devsculpt10@gmail.com?subject=Consulta%20sobre%20servicios%20-%20Leratech&body=Hola,%0D%0A%0D%0AMe%20interesa%20consultar%20sobre:%0D%0A%0D%0A"
               className="flex flex-col items-center justify-center px-6 py-10 bg-gradient-to-br from-slate-900 to-slate-800 hover:from-slate-800 hover:to-slate-700 rounded-2xl border border-slate-700 hover:border-teal-500 transition-all group shadow-lg hover:shadow-teal-500/20"
             >
               <div className="w-16 h-16 bg-teal-500/10 rounded-2xl flex items-center justify-center mb-4 group-hover:bg-teal-500/20 transition-colors">
