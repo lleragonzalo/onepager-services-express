@@ -663,7 +663,9 @@ export default function OnePager() {
              <p className="text-3xl font-bold text-teal-400 mb-2">{t.services.combo.price}</p>
              <p className="text-slate-300 mb-4">{t.services.combo.desc} <span className="text-teal-400 font-semibold">{t.services.combo.save}</span></p>
             <a
-               href="mailto:contacto@gllera.dev?subject=Consulta%20Combo%20Completo"
+               href="https://www.linkedin.com/in/gonzalollera/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-block px-8 py-3 bg-teal-500 hover:bg-teal-600 text-white font-semibold rounded-xl transition-all transform hover:scale-105"
             >
               {t.services.combo.cta}
