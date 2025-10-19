@@ -243,7 +243,7 @@ export default function OnePager() {
       ],
       paymentLinks: {
         mercadopago: 'https://link.mercadopago.com.uy/gllera',
-        paypal: 'https://paypal.me/lleragonzalo'
+        paypal: 'https://paypal.me/lleragonzalo/650'
       }
     },
     {
@@ -261,7 +261,7 @@ export default function OnePager() {
       ],
       paymentLinks: {
         mercadopago: 'https://link.mercadopago.com.uy/gllera',
-        paypal: 'https://paypal.me/lleragonzalo'
+        paypal: 'https://paypal.me/lleragonzalo/500'
       }
     },
     {
@@ -279,7 +279,7 @@ export default function OnePager() {
       ],
       paymentLinks: {
         mercadopago: 'https://link.mercadopago.com.uy/gllera',
-        paypal: 'https://paypal.me/lleragonzalo'
+        paypal: 'https://paypal.me/lleragonzalo/400'
       }
     }
   ] : [
@@ -298,7 +298,7 @@ export default function OnePager() {
       ],
       paymentLinks: {
         mercadopago: 'https://link.mercadopago.com.uy/gllera',
-        paypal: 'https://paypal.me/lleragonzalo'
+        paypal: 'https://paypal.me/lleragonzalo/650'
       }
     },
     {
@@ -316,7 +316,7 @@ export default function OnePager() {
       ],
       paymentLinks: {
         mercadopago: 'https://link.mercadopago.com.uy/gllera',
-        paypal: 'https://paypal.me/lleragonzalo'
+        paypal: 'https://paypal.me/lleragonzalo/500'
       }
     },
     {
@@ -334,7 +334,7 @@ export default function OnePager() {
       ],
       paymentLinks: {
         mercadopago: 'https://link.mercadopago.com.uy/gllera',
-        paypal: 'https://paypal.me/lleragonzalo'
+        paypal: 'https://paypal.me/lleragonzalo/400'
       }
     }
   ];
@@ -675,15 +675,35 @@ export default function OnePager() {
           <div className="bg-gradient-to-r from-teal-900/50 to-blue-900/50 rounded-2xl p-8 border-2 border-teal-500/50 max-w-2xl mx-auto text-center">
             <h3 className="text-2xl font-bold mb-3">{t.services.combo.title}</h3>
              <p className="text-3xl font-bold text-teal-400 mb-2">{t.services.combo.price}</p>
-             <p className="text-slate-300 mb-4">{t.services.combo.desc} <span className="text-teal-400 font-semibold">{t.services.combo.save}</span></p>
-            <a
-               href="https://www.linkedin.com/in/gonzalollera/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block px-8 py-3 bg-teal-500 hover:bg-teal-600 text-white font-semibold rounded-xl transition-all transform hover:scale-105"
-            >
-              {t.services.combo.cta}
-            </a>
+             <p className="text-slate-300 mb-6">{t.services.combo.desc} <span className="text-teal-400 font-semibold">{t.services.combo.save}</span></p>
+            
+            {/* Botones de pago del combo */}
+            <div className="space-y-3 max-w-md mx-auto">
+              <a
+                href="https://link.mercadopago.com.uy/gllera"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block w-full px-6 py-3 bg-teal-500 hover:bg-teal-600 text-white font-semibold rounded-xl text-center transition-all transform hover:scale-105"
+              >
+                {t.services.payMP}
+              </a>
+              <a
+                href="https://paypal.me/lleragonzalo/1250"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block w-full px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-xl text-center transition-all transform hover:scale-105"
+              >
+                {t.services.payPP}
+              </a>
+              <a
+                href="https://www.linkedin.com/in/gonzalollera/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block w-full px-6 py-3 bg-slate-700 hover:bg-slate-600 text-white font-medium rounded-xl text-center transition-all border border-slate-600"
+              >
+                {t.services.combo.cta}
+              </a>
+            </div>
           </div>
         </div>
       </section>
