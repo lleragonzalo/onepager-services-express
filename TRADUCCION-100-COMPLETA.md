@@ -159,7 +159,7 @@ El sitio está **100% bilingüe** y casi listo.
 - ✅ MercadoPago: `link.mercadopago.com.uy/gllera`
 - ✅ PayPal: `paypal.me/lleragonzalo`
 - ✅ LinkedIn: `linkedin.com/in/gonzalollera`
-- ✅ Email: `contacto@gllera.dev`
+- ✅ Email: `devsculpt10@gmail.com`
 - ✅ Sistema de traducción completo
 
 ### ⏳ Solo falta:

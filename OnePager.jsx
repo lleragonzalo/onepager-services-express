@@ -11,7 +11,7 @@ export default function OnePager() {
       },
       hero: {
         title: 'Ingeniería de Software & Data\npara Sistemas Críticos',
-        subtitle: 'MSc en TI. Especializado en automatización inteligente, ML y rescate de sistemas enterprise con entregas rápidas según complejidad del proyecto, en promedio en 48hs.',
+        subtitle: 'MSc en TI. Especializado en automatización inteligente, ML y rescate de sistemas enterprise con entregas rápidas, según complejidad del proyecto, en promedio en 48hs.',
         cta1: 'Ver servicios',
         cta2: 'Ver proyectos reales'
       },
@@ -98,7 +98,7 @@ export default function OnePager() {
       contact: {
         title: '¿Sistema en crisis o proceso\nmanual crítico?',
         subtitle: 'Hablemos hoy.',
-        subtitleHighlight: 'Te doy estimación realista en 2 horas',
+        subtitleHighlight: 'Te doy estimación realista en 30 minutos',
         email: 'Email',
         emailDesc: 'Respuesta en 24h',
         whatsapp: 'WhatsApp',
@@ -107,7 +107,7 @@ export default function OnePager() {
         linkedinDesc: 'Conectemos'
       },
       footer: {
-        copyright: '© 2025 GLlera. Todos los derechos reservados.',
+        copyright: '© 2025 leratech.dev. Todos los derechos reservados.',
         aboutMe: 'Sobre mí',
         services: 'Servicios',
         projects: 'Proyectos',
@@ -216,7 +216,7 @@ export default function OnePager() {
         linkedinDesc: 'Let\'s connect'
       },
       footer: {
-        copyright: '© 2025 GLlera. All rights reserved.',
+        copyright: '© 2025 leratech.dev. All rights reserved.',
         aboutMe: 'About me',
         services: 'Services',
         projects: 'Projects',
@@ -352,7 +352,7 @@ export default function OnePager() {
       description: 'Desarrollo y mantenimiento de Web Services SOAP para plataforma gubernamental de contrataciones. Migración de mapeos Dozer, integración con Oracle y deployment en JBoss sin downtime.'
     },
     {
-      title: 'Pipeline de Validación ARCE',
+      title: 'Pipeline de Validación Enterprise',
       description: 'Automatización de validaciones de reglas de negocio complejas (OF/AD/AC/LL/SCO) con Python. Procesamiento batch contra Oracle, generación de reportes Excel con análisis pivot y dashboard ejecutivo.'
     },
     {
@@ -448,9 +448,9 @@ export default function OnePager() {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
               <div className="w-10 h-10 bg-gradient-to-br from-teal-400 to-teal-600 rounded-lg flex items-center justify-center font-bold text-lg">
-                GL
+                Gl
               </div>
-              <span className="ml-3 font-semibold text-lg">GLlera</span>
+              <span className="ml-3 font-semibold text-lg">leratech.dev</span>
             </div>
             <div className="flex items-center gap-4">
               <button
@@ -492,6 +492,20 @@ export default function OnePager() {
               >
                 {t.hero.cta1}
               </button>
+              <a
+                href="https://calendly.com/devsculpt10/30min"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-10 py-5 bg-gradient-to-r from-purple-500 via-purple-600 to-indigo-600 hover:from-purple-600 hover:via-purple-700 hover:to-indigo-700 text-white font-bold text-lg rounded-2xl shadow-2xl shadow-purple-500/40 hover:shadow-purple-500/60 transition-all transform hover:scale-105 flex items-center justify-center gap-3"
+              >
+                <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                </svg>
+                <span>{language === 'es' ? 'Agendar Videollamada Gratis' : 'Schedule Free Video Call'}</span>
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                </svg>
+              </a>
               <button
                 onClick={() => scrollToSection('confianza')}
                 className="px-8 py-4 bg-slate-800 hover:bg-slate-700 text-white font-semibold rounded-2xl border border-slate-700 transition-all"
@@ -898,9 +912,28 @@ export default function OnePager() {
             {t.contact.subtitle} <span className="text-teal-400 font-semibold">{t.contact.subtitleHighlight}</span>
           </p>
           
+          {/* Botón simple de Calendly */}
+          <div className="mb-12">
+            <a
+              href="https://calendly.com/devsculpt10/30min"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white font-semibold rounded-2xl shadow-lg shadow-blue-500/30 hover:shadow-blue-500/50 transition-all transform hover:scale-105"
+            >
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+              </svg>
+              <span>{language === 'es' ? 'Agendar Llamada' : 'Schedule Call'}</span>
+            </a>
+          </div>
+
+          <p className="text-slate-500 text-sm mb-8">
+            {language === 'es' ? 'O contactame directamente por:' : 'Or contact me directly via:'}
+          </p>
+
           <div className="grid sm:grid-cols-3 gap-5 max-w-3xl mx-auto">
             <a
-              href="mailto:contacto@gllera.dev"
+              href="mailto:devsculpt10@gmail.com"
               className="flex flex-col items-center justify-center px-6 py-10 bg-gradient-to-br from-slate-900 to-slate-800 hover:from-slate-800 hover:to-slate-700 rounded-2xl border border-slate-700 hover:border-teal-500 transition-all group shadow-lg hover:shadow-teal-500/20"
             >
               <div className="w-16 h-16 bg-teal-500/10 rounded-2xl flex items-center justify-center mb-4 group-hover:bg-teal-500/20 transition-colors">

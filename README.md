@@ -1,4 +1,4 @@
-# One-Pager Profesional - G. Llera
+# One-Pager Profesional - Leratech
 
 One-pager moderno para vender servicios de Software & Data Engineering con enfoque en sistemas críticos, automatización inteligente y ML.
 
@@ -30,7 +30,7 @@ href="https://wa.me/598XXXXXXXXX?text=..."
 
 **✅ LinkedIn**: Ya configurado con `https://www.linkedin.com/in/gonzalollera/`
 
-**✅ Email**: Configurado con `contacto@gllera.dev`
+**✅ Email**: Configurado con `devsculpt10@gmail.com`
 
 ### 3. Dominio personalizado (opcional)
 
@@ -108,7 +108,7 @@ Cambia los valores `price` en cada servicio y actualiza el Combo (línea 318).
 
 ## 📞 Soporte
 
-Si necesitás ayuda con la personalización, escribí a contacto@gllera.dev
+Si necesitás ayuda con la personalización, escribí a devsculpt10@gmail.com
 
 ---
 
