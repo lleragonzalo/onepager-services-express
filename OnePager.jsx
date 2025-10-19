@@ -290,9 +290,9 @@ export default function OnePager() {
       description: 'Desarrollo personalizado de aplicaciones web y backend según tus necesidades',
       deliverables: [
         'Análisis de requerimientos y planificación',
-        'Desarrollo backend (Python, Java) o frontend (React, JavaScript)',
-        'Integración con APIs y bases de datos',
-        'Testing y documentación completa',
+        'Desarrollo backend (Python, FastAPI, Java) o frontend (React, TypeScript, Next.js)',
+        'Integración con APIs REST/SOAP y bases de datos',
+        'Testing completo (Jest, Playwright) y documentación',
         'Deployment y capacitación del equipo'
       ],
       paymentLinks: {
@@ -363,9 +363,9 @@ export default function OnePager() {
       description: 'Custom web and backend application development tailored to your needs',
       deliverables: [
         'Requirements analysis and planning',
-        'Backend (Python, Java) or frontend (React, JavaScript) development',
-        'API and database integration',
-        'Complete testing and documentation',
+        'Backend (Python, FastAPI, Java) or frontend (React, TypeScript, Next.js) development',
+        'REST/SOAP API and database integration',
+        'Complete testing (Jest, Playwright) and documentation',
         'Deployment and team training'
       ],
       paymentLinks: {
@@ -376,10 +376,21 @@ export default function OnePager() {
   ];
 
   const technologies = [
-    'Python', 'Machine Learning', 'FastAPI', 'Data Analytics',
-    'Pandas', 'NumPy', 'Scikit-learn', 'PostgreSQL', 'Oracle',
-    'SOAP/REST APIs', 'JMeter', 'Excel Automation',
-    'Java EE', 'JBoss', 'EJB', 'Dozer'
+    // Frontend
+    'React', 'TypeScript', 'Next.js', 'JavaScript',
+    'Tailwind CSS', 'ShadCN/UI', 'Framer Motion',
+    'Axios', 'React Query', 'Zod',
+    'Recharts', 'D3.js',
+    // Backend & Data
+    'Python', 'FastAPI', 'Java EE', 'JBoss', 'EJB',
+    'Machine Learning', 'Data Analytics',
+    'Pandas', 'NumPy', 'Scikit-learn',
+    // Bases de datos & APIs
+    'PostgreSQL', 'Oracle', 'MySQL',
+    'SOAP/REST APIs', 'Dozer',
+    // Testing & Tools
+    'Jest', 'Playwright', 'JMeter',
+    'ESLint', 'Prettier', 'Excel Automation'
   ];
 
   const cases = language === 'es' ? [
