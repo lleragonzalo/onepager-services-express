@@ -10,7 +10,7 @@ export default function OnePager() {
         contact: 'Contacto'
       },
       hero: {
-        title: 'Ingeniería de Software & Data\npara Sistemas Críticos',
+        title: 'Ingeniería de Software & Data\nSistemas Críticos y Desarrollo a Medida',
         subtitle: 'MSc en TI. Especializado en automatización inteligente, ML y rescate de sistemas enterprise con entregas rápidas, según complejidad del proyecto, en promedio en 48hs.',
         cta1: 'Ver servicios',
         cta2: 'Ver proyectos reales'
@@ -119,7 +119,7 @@ export default function OnePager() {
         contact: 'Contact'
       },
       hero: {
-        title: 'Software & Data Engineering\nfor Critical Systems',
+        title: 'Software & Data Engineering\nCritical Systems & Custom Development',
         subtitle: 'MSc in IT. Specialized in intelligent automation, ML, and enterprise system rescue with fast delivery according to project complexity, average 48h.',
         cta1: 'View services',
         cta2: 'View real projects'
