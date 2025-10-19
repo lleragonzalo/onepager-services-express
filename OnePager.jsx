@@ -43,11 +43,11 @@ export default function OnePager() {
         payPP: 'Pagar con PayPal',
         combo: {
           badge: 'Oferta Paquete',
-          title: '🎁 Combo Completo',
+          title: '🎁 Paquete Premium',
           price: 'USD 1.250',
-          desc: 'Los 3 servicios juntos •',
+          desc: 'Los 3 servicios express incluidos •',
           save: 'Ahorrás USD 300',
-          cta: 'Consultar Combo'
+          cta: 'Consultar Paquete'
         }
       },
       process: {
@@ -152,9 +152,9 @@ export default function OnePager() {
         payPP: 'Pay with PayPal',
         combo: {
           badge: 'Package Offer',
-          title: '🎁 Complete Package',
+          title: '🎁 Premium Package',
           price: 'USD 1,250',
-          desc: 'All 3 services together •',
+          desc: 'All 3 express services included •',
           save: 'Save USD 300',
           cta: 'Inquire Package'
         }
@@ -281,6 +281,24 @@ export default function OnePager() {
         mercadopago: 'https://link.mercadopago.com.uy/gllera',
         paypal: 'https://paypal.me/lleragonzalo/400'
       }
+    },
+    {
+      id: 4,
+      title: 'Desarrollo a Medida',
+      price: 'A consultar',
+      time: 'Según alcance',
+      description: 'Desarrollo personalizado de aplicaciones web y backend según tus necesidades',
+      deliverables: [
+        'Análisis de requerimientos y planificación',
+        'Desarrollo backend (Python, Java) o frontend (React, JavaScript)',
+        'Integración con APIs y bases de datos',
+        'Testing y documentación completa',
+        'Deployment y capacitación del equipo'
+      ],
+      paymentLinks: {
+        mercadopago: 'https://link.mercadopago.com.uy/gllera',
+        paypal: 'https://paypal.me/lleragonzalo'
+      }
     }
   ] : [
     {
@@ -335,6 +353,24 @@ export default function OnePager() {
       paymentLinks: {
         mercadopago: 'https://link.mercadopago.com.uy/gllera',
         paypal: 'https://paypal.me/lleragonzalo/400'
+      }
+    },
+    {
+      id: 4,
+      title: 'Custom Development',
+      price: 'On request',
+      time: 'Based on scope',
+      description: 'Custom web and backend application development tailored to your needs',
+      deliverables: [
+        'Requirements analysis and planning',
+        'Backend (Python, Java) or frontend (React, JavaScript) development',
+        'API and database integration',
+        'Complete testing and documentation',
+        'Deployment and team training'
+      ],
+      paymentLinks: {
+        mercadopago: 'https://link.mercadopago.com.uy/gllera',
+        paypal: 'https://paypal.me/lleragonzalo'
       }
     }
   ];
@@ -615,13 +651,113 @@ export default function OnePager() {
       {/* Servicios */}
       <section id="servicios" className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl sm:text-4xl font-bold mb-3 text-center">{t.services.title}</h2>
-          <p className="text-slate-400 text-center mb-16 text-lg max-w-2xl mx-auto">
-            {t.services.subtitle}
-          </p>
           
-          <div className="grid md:grid-cols-3 gap-8 mb-12">
-            {services.map((service) => (
+          {/* Desarrollo a Medida - Servicio Principal */}
+          <div className="mb-20">
+            <h2 className="text-3xl sm:text-4xl font-bold mb-3 text-center">
+              {language === 'es' ? 'Servicio Principal' : 'Main Service'}
+            </h2>
+            <p className="text-slate-400 text-center mb-12 text-lg max-w-2xl mx-auto">
+              {language === 'es' ? 'Desarrollo personalizado adaptado a tus necesidades específicas' : 'Custom development tailored to your specific needs'}
+            </p>
+
+            <div className="max-w-2xl mx-auto">
+              {services[3] && (
+                <div className="bg-gradient-to-br from-slate-800 to-slate-900 rounded-2xl p-10 border-2 border-teal-500/30 hover:border-teal-500 transition-all hover:shadow-2xl hover:shadow-teal-500/20">
+                  <div className="flex items-center justify-between mb-5">
+                    <h3 className="text-3xl font-bold text-teal-400 leading-tight">{services[3].title}</h3>
+                    <span className="px-4 py-2 bg-gradient-to-r from-teal-500/20 to-blue-500/20 border border-teal-500/30 text-teal-400 rounded-xl text-sm font-bold">
+                      {language === 'es' ? '✨ Personalizado' : '✨ Custom'}
+                    </span>
+                  </div>
+                  <div className="flex items-baseline gap-3 mb-6">
+                    <span className="text-4xl font-bold text-white">{services[3].price}</span>
+                    <span className="text-slate-500">•</span>
+                    <span className="text-slate-400 text-lg">{services[3].time}</span>
+                  </div>
+                  <p className="text-slate-300 mb-8 text-base leading-relaxed">{services[3].description}</p>
+                  
+                  <div className="mb-8">
+                    <h4 className="font-bold mb-5 text-xs uppercase tracking-wider text-slate-500">{t.services.includes}</h4>
+                    <ul className="grid md:grid-cols-2 gap-3">
+                      {services[3].deliverables.map((item, idx) => (
+                        <li key={idx} className="flex items-start group">
+                          <svg className="w-4 h-4 text-teal-400 mr-3 flex-shrink-0 mt-0.5 group-hover:scale-110 transition-transform" fill="currentColor" viewBox="0 0 20 20">
+                            <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                          </svg>
+                          <span className="text-sm text-slate-300 leading-snug">{item}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+
+                  {/* Botones de contacto */}
+                  <div className="grid md:grid-cols-2 gap-3 mb-4">
+                    <a
+                      href="https://calendly.com/devsculpt10/30min"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center justify-center gap-2 px-6 py-3 bg-gradient-to-r from-purple-500 to-purple-600 hover:from-purple-600 hover:to-purple-700 text-white font-semibold rounded-xl transition-all transform hover:scale-105"
+                    >
+                      <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                      </svg>
+                      <span>{language === 'es' ? 'Consultar' : 'Inquire'}</span>
+                    </a>
+                    <a
+                      href="https://www.linkedin.com/in/gonzalollera/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center justify-center gap-2 px-6 py-3 bg-slate-700 hover:bg-slate-600 text-white font-medium rounded-xl transition-all border border-slate-600"
+                    >
+                      <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                      </svg>
+                      <span>LinkedIn</span>
+                    </a>
+                  </div>
+
+                  {/* Botones de pago */}
+                  <div className="grid md:grid-cols-2 gap-3">
+                    <a
+                      href="https://link.mercadopago.com.uy/gllera"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block px-6 py-3 bg-teal-500 hover:bg-teal-600 text-white font-semibold rounded-xl text-center transition-all transform hover:scale-105"
+                    >
+                      {t.services.payMP}
+                    </a>
+                    <a
+                      href="https://paypal.me/lleragonzalo"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-xl text-center transition-all transform hover:scale-105"
+                    >
+                      {t.services.payPP}
+                    </a>
+                  </div>
+                </div>
+              )}
+            </div>
+          </div>
+
+          {/* Separador visual */}
+          <div className="flex items-center gap-4 mb-16">
+            <div className="flex-1 h-px bg-gradient-to-r from-transparent via-slate-700 to-transparent"></div>
+            <span className="text-slate-500 text-sm font-semibold uppercase tracking-wide">
+              {language === 'es' ? 'Servicios Express' : 'Express Services'}
+            </span>
+            <div className="flex-1 h-px bg-gradient-to-r from-transparent via-slate-700 to-transparent"></div>
+          </div>
+
+          {/* Servicios Express - 3 columnas */}
+          <div className="mb-12">
+            <p className="text-slate-400 text-center mb-12 text-base max-w-2xl mx-auto">
+              {language === 'es' ? 'Soluciones con alcance definido, precio fijo y entrega garantizada' : 'Solutions with defined scope, fixed price and guaranteed delivery'}
+            </p>
+
+            <div className="grid md:grid-cols-3 gap-8">
+              {services.slice(0, 3).map((service) => (
               <div
                 key={service.id}
                 className="bg-slate-800 rounded-2xl p-8 border border-slate-700 hover:border-teal-500 transition-all hover:shadow-xl hover:shadow-teal-500/10"
@@ -669,13 +805,17 @@ export default function OnePager() {
                 </div>
               </div>
             ))}
+            </div>
           </div>
 
           {/* Combo */}
           <div className="bg-gradient-to-r from-teal-900/50 to-blue-900/50 rounded-2xl p-8 border-2 border-teal-500/50 max-w-2xl mx-auto text-center">
             <h3 className="text-2xl font-bold mb-3">{t.services.combo.title}</h3>
              <p className="text-3xl font-bold text-teal-400 mb-2">{t.services.combo.price}</p>
-             <p className="text-slate-300 mb-6">{t.services.combo.desc} <span className="text-teal-400 font-semibold">{t.services.combo.save}</span></p>
+             <p className="text-slate-300 mb-2">{t.services.combo.desc} <span className="text-teal-400 font-semibold">{t.services.combo.save}</span></p>
+             <p className="text-slate-400 text-xs mb-6">
+              {language === 'es' ? '* Incluye los 3 primeros servicios. "Desarrollo a Medida" se cotiza por separado.' : '* Includes the first 3 services. "Custom Development" is quoted separately.'}
+             </p>
             
             {/* Botones de pago del combo */}
             <div className="space-y-3 max-w-md mx-auto">
@@ -974,8 +1114,8 @@ export default function OnePager() {
             >
               <div className="w-16 h-16 bg-teal-500/10 rounded-2xl flex items-center justify-center mb-4 group-hover:bg-teal-500/20 transition-colors">
                 <svg className="w-8 h-8 text-teal-400 group-hover:scale-110 transition-transform" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
-                </svg>
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+              </svg>
               </div>
               <span className="font-bold text-white group-hover:text-teal-400 transition-colors">{t.contact.whatsapp}</span>
               <span className="text-xs text-slate-500 mt-1">{t.contact.whatsappDesc}</span>
@@ -989,8 +1129,8 @@ export default function OnePager() {
             >
               <div className="w-16 h-16 bg-teal-500/10 rounded-2xl flex items-center justify-center mb-4 group-hover:bg-teal-500/20 transition-colors">
                 <svg className="w-8 h-8 text-teal-400 group-hover:scale-110 transition-transform" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
-                </svg>
+                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+              </svg>
               </div>
               <span className="font-bold text-white group-hover:text-teal-400 transition-colors">{t.contact.linkedin}</span>
               <span className="text-xs text-slate-500 mt-1">{t.contact.linkedinDesc}</span>

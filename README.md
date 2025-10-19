@@ -82,7 +82,8 @@ Perfecto para enviar por email a clientes.
 1. **Legacy System Rescue** - USD 650 (desde 48h)
 2. **Data Automation Suite** - USD 500 (desde 48h)
 3. **Performance Optimization** - USD 400 (desde 48h)
-4. **Paquete Completo** - USD 1.250 (ahorro USD 300)
+4. **Desarrollo a Medida** - A consultar (según alcance)
+5. **Paquete Premium** (3 servicios express) - USD 1.250 (ahorro USD 300)
 
 **Nota**: Los tiempos se estiman después del análisis inicial (1-2h). La mayoría de proyectos se completan en 48-72h según complejidad.
 

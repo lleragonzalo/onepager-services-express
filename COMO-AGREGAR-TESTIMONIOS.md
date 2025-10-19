@@ -118,7 +118,7 @@ Si prefieres, puedo usar solo tu nombre/inicial y cargo,
 sin mencionar la empresa.
 
 ¡Gracias!
-G. Llera
+G.Llera
 ```
 
 ### Qué incluir
