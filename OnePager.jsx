@@ -518,9 +518,21 @@ export default function OnePager() {
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 bg-gradient-to-r from-teal-400 to-blue-400 bg-clip-text text-transparent leading-tight whitespace-pre-line">
               {t.hero.title}
             </h1>
-            <p className="text-xl sm:text-2xl text-slate-300 mb-12 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-xl sm:text-2xl text-slate-300 mb-6 max-w-3xl mx-auto leading-relaxed">
               {t.hero.subtitle}
             </p>
+            
+            {/* Tagline de experiencia */}
+            <div className="flex items-center justify-center gap-3 mb-12">
+              <div className="h-px w-12 bg-gradient-to-r from-transparent to-teal-500"></div>
+              <p className="text-base text-slate-400 italic">
+                {language === 'es' 
+                  ? '8 años de experiencia en sistemas gubernamentales y corporativos. Desarrollo rápido, seguro y auditado.' 
+                  : '8 years of experience in government and corporate systems. Fast, secure and audited development.'}
+              </p>
+              <div className="h-px w-12 bg-gradient-to-l from-transparent to-teal-500"></div>
+            </div>
+
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button
                 onClick={() => scrollToSection('servicios')}
