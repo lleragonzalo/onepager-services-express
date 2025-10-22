@@ -182,9 +182,9 @@ export default function OnePager() {
         subtitle: 'Respuestas rápidas a las consultas más comunes'
       },
       contact: {
-        title: '¿Sistema en crisis o proceso\nmanual bloqueando tu operación?',
+        title: '¿Sistema en crisis o proceso\nmanual crítico?',
         subtitle: 'Hablemos hoy.',
-        subtitleHighlight: 'Te envío una evaluación técnica y estimación realista en menos de 30 minutos',
+        subtitleHighlight: 'Te doy estimación realista en 30 minutos',
         email: 'Email',
         emailDesc: 'Respuesta en 24 h',
         whatsapp: 'WhatsApp',
@@ -377,9 +377,9 @@ export default function OnePager() {
         subtitle: 'Quick answers to common questions'
       },
       contact: {
-        title: 'System in crisis or manual process\nblocking your operation?',
+        title: 'System in crisis or critical\nmanual process?',
         subtitle: 'Let\'s talk today.',
-        subtitleHighlight: 'I send technical assessment and realistic estimate in less than 30 minutes',
+        subtitleHighlight: 'I provide realistic estimate in 30 minutes',
         email: 'Email',
         emailDesc: 'Response in 24 h',
         whatsapp: 'WhatsApp',
