@@ -650,7 +650,7 @@ export default function OnePager() {
     },
     {
       question: '¿Cómo garantizás la confidencialidad?',
-      answer: 'Todos los proyectos se manejan bajo acuerdo de confidencialidad (NDA) o cláusula institucional, asegurando resguardo de datos y código.'
+      answer: 'Cada proyecto se maneja con total confidencialidad. Trabajo bajo acuerdos NDA de ser necesario o políticas institucionales o personales que garantizan la protección completa de tus datos y código.'
     }
   ] : [
     {
@@ -667,7 +667,7 @@ export default function OnePager() {
     },
     {
       question: 'How do you guarantee confidentiality?',
-      answer: 'All projects are handled under non-disclosure agreement (NDA) or institutional clause, ensuring protection of data and code.'
+      answer: 'Every project is handled with complete confidentiality. I work under NDA agreements when necessary or institutional or personal policies that guarantee full protection of your data and code.'
     }
   ];
 
