@@ -98,17 +98,17 @@ export default function OnePager() {
       },
       network: {
         title: 'DevSculp Network',
-        subtitle: 'Red de automatización inteligente con revenue-sharing',
-        description: 'Herramientas SaaS para desarrolladores, analistas y equipos técnicos. Accedé, usá y ganá recomendando.',
+        subtitle: 'Plataforma de automatización inteligente para todos',
+        description: 'Herramientas SaaS para técnicos y no técnicos: automatizá documentación, datos y reportes con IA. Accedé, usá y ganá recomendando.',
         tagline: 'Usá, compartí, escalá y ganá',
         howItWorks: '¿Cómo funciona?',
         model: {
           title1: '💼 Acceso a 6+ herramientas PRO',
-          desc1: 'AI Spec Writer, YAML Validator, JMeter Generator, Data Automation Suite, Code Scanner y AI Resume Reviewer. Todo listo para producción.',
+          desc1: 'AI Doc Builder, Data Automation Suite, Form Generator, YAML Validator, JMeter Generator y Code Scanner. Para técnicos y no técnicos.',
           title2: '💰 Ganá 20% por referido',
           desc2: 'Cada usuario que invites obtiene prueba gratis. Vos ganás 20% de comisión recurrente de por vida en sus suscripciones PRO.',
           title3: '⚙️ Sin infraestructura propia',
-          desc3: 'APIs REST listas para usar. No necesitás servidores, desarrollo ni mantenimiento. Solo registrate y compartí tu link único.'
+          desc3: 'Herramientas web listas para usar. No necesitás servidores, desarrollo ni mantenimiento. Solo registrate y compartí tu link único.'
         },
         pricing: {
           title: 'Planes disponibles',
@@ -151,14 +151,14 @@ export default function OnePager() {
           social: '+200 horas ahorradas por nuestra comunidad este mes'
         },
         examples: {
-          title: 'Top 3 herramientas más pedidas (2025)',
-          tool1: '🧠 AI Spec Writer',
-          tool1Desc: 'Genera historias de usuario, casos de uso UML/BPMN y requisitos técnicos con IA. Exporta a Word/Markdown. USD 15/mes.',
-          tool2: '⚙️ YAML-to-Excel Validator',
-          tool2Desc: 'Convierte archivos YAML/JSON en planillas Excel organizadas y validadas. Perfecto para testers no técnicos. PRO: hasta 10 MB.',
-          tool3: '📈 JMeter Plan Generator',
-          tool3Desc: 'Crea planes JMeter .jmx completos desde JSON. Output descargable + reporte HTML. Compatible CI/CD. USD 10/mes.',
-          more: '+ Data Automation Suite, Code Quality Scanner, AI Resume Reviewer'
+          title: 'Top 3 – DevSculp Tools 2025',
+          tool1: '🧠 AI Doc Builder',
+          tool1Desc: 'De idea a documento técnico en segundos. Convierte descripciones simples en resumen ejecutivo, historias de usuario y diagramas BPMN. Exporta a Word/Markdown. Free: 1 doc/semana • PRO: USD 15/mes.',
+          tool2: '📊 Data Automation Suite – Pro',
+          tool2Desc: 'Subí tu Excel o CSV y obtené gráficos automáticos, KPIs y reportes listos para presentar. Detecta errores, tendencias y outliers. Free: 1 reporte/mes • PRO: USD 19/mes.',
+          tool3: '💬 AI Form & Report Generator',
+          tool3Desc: 'Generá formularios o reportes dinámicos en segundos. Crea encuestas, controles de asistencia y evaluaciones con panel de respuestas y exportación Excel/PDF. Free: 1 formulario • PRO: USD 10/mes.',
+          more: '+ YAML→Excel, JMeter Generator, Code Scanner, AI Resume Reviewer'
         },
         benefits: {
           title: 'Beneficios clave',
@@ -293,17 +293,17 @@ export default function OnePager() {
       },
       network: {
         title: 'DevSculp Network',
-        subtitle: 'Smart automation network with revenue-sharing',
-        description: 'SaaS tools for developers, analysts and technical teams. Access, use and earn by recommending.',
+        subtitle: 'Smart automation platform for everyone',
+        description: 'SaaS tools for technical and non-technical users: automate documentation, data and reports with AI. Access, use and earn by recommending.',
         tagline: 'Use, share, scale and earn',
         howItWorks: 'How it works?',
         model: {
           title1: '💼 Access 6+ PRO tools',
-          desc1: 'AI Spec Writer, YAML Validator, JMeter Generator, Data Automation Suite, Code Scanner and AI Resume Reviewer. Production-ready.',
+          desc1: 'AI Doc Builder, Data Automation Suite, Form Generator, YAML Validator, JMeter Generator and Code Scanner. For technical and non-technical users.',
           title2: '💰 Earn 20% per referral',
           desc2: 'Each user you invite gets a free trial. You earn 20% recurring lifetime commission on their PRO subscriptions.',
           title3: '⚙️ No infrastructure needed',
-          desc3: 'REST APIs ready to use. No servers, development or maintenance needed. Just register and share your unique link.'
+          desc3: 'Web tools ready to use. No servers, development or maintenance needed. Just register and share your unique link.'
         },
         pricing: {
           title: 'Available plans',
@@ -346,14 +346,14 @@ export default function OnePager() {
           social: '+200 hours saved by our community this month'
         },
         examples: {
-          title: 'Top 3 most requested tools (2025)',
-          tool1: '🧠 AI Spec Writer',
-          tool1Desc: 'Generate user stories, UML/BPMN use cases and technical requirements with AI. Export to Word/Markdown. USD 15/month.',
-          tool2: '⚙️ YAML-to-Excel Validator',
-          tool2Desc: 'Convert YAML/JSON files to organized and validated Excel sheets. Perfect for non-technical testers. PRO: up to 10 MB.',
-          tool3: '📈 JMeter Plan Generator',
-          tool3Desc: 'Create complete JMeter .jmx plans from JSON. Downloadable output + HTML report. CI/CD compatible. USD 10/month.',
-          more: '+ Data Automation Suite, Code Quality Scanner, AI Resume Reviewer'
+          title: 'Top 3 – DevSculp Tools 2025',
+          tool1: '🧠 AI Doc Builder',
+          tool1Desc: 'From idea to technical document in seconds. Converts simple descriptions into executive summary, user stories and BPMN diagrams. Export to Word/Markdown. Free: 1 doc/week • PRO: USD 15/month.',
+          tool2: '📊 Data Automation Suite – Pro',
+          tool2Desc: 'Upload your Excel or CSV and get automatic charts, KPIs and presentation-ready reports. Detects errors, trends and outliers. Free: 1 report/month • PRO: USD 19/month.',
+          tool3: '💬 AI Form & Report Generator',
+          tool3Desc: 'Generate dynamic forms or reports in seconds. Create surveys, attendance tracking and evaluations with response dashboard and Excel/PDF export. Free: 1 form • PRO: USD 10/month.',
+          more: '+ YAML→Excel, JMeter Generator, Code Scanner, AI Resume Reviewer'
         },
         benefits: {
           title: 'Key benefits',
