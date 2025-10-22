@@ -10,7 +10,7 @@ export default function OnePager() {
         contact: 'Contacto'
       },
       hero: {
-        title: 'Ingeniería de Software y Datos\npara Sistemas Críticos',
+        title: 'Ingeniería de Software & Data\npara Sistemas Críticos.\nDesarrollos a medida',
         subtitle: 'Modernización, automatización y fortalecimiento de sistemas enterprise con entregas rápidas, seguras y auditables.',
         subtitle2: 'Especializado en Machine Learning, automatización inteligente y rescate de sistemas legacy.',
         subtitle3: 'Promedio de entrega: 48 h, según complejidad del proyecto.',
@@ -205,7 +205,7 @@ export default function OnePager() {
         contact: 'Contact'
       },
       hero: {
-        title: 'Software & Data Engineering\nfor Critical Systems',
+        title: 'Software & Data Engineering\nfor Critical Systems.\nCustom Development',
         subtitle: 'Modernization, automation and strengthening of enterprise systems with fast, secure and auditable deliveries.',
         subtitle2: 'Specialized in Machine Learning, intelligent automation and legacy system rescue.',
         subtitle3: 'Average delivery: 48 h, depending on project complexity.',
