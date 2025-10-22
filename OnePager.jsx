@@ -10,15 +10,18 @@ export default function OnePager() {
         contact: 'Contacto'
       },
       hero: {
-        title: 'Ingeniería de Software & Data\npara Sistemas Críticos.\nDesarrollos a medida',
-        subtitle: 'MSc en TI. Especializado en automatización inteligente, ML y rescate de sistemas enterprise con entregas rápidas, según complejidad del proyecto, en promedio en 48hs.',
+        title: 'Ingeniería de Software y Datos\npara Sistemas Críticos',
+        subtitle: 'Modernización, automatización y fortalecimiento de sistemas enterprise con entregas rápidas, seguras y auditables.',
+        subtitle2: 'Especializado en Machine Learning, automatización inteligente y rescate de sistemas legacy.',
+        subtitle3: 'Promedio de entrega: 48 h, según complejidad del proyecto.',
         cta1: 'Ver servicios',
-        cta2: 'Ver proyectos reales'
+        cta2: 'Agendar videollamada',
+        cta3: 'Ver proyectos reales'
       },
       differentiators: {
         title1: 'MSc + EMBA',
         desc1: 'Visión técnica y estratégica empresarial',
-        title2: '24-48h Garantizado',
+        title2: '48-72h Garantizado',
         desc2: 'Entregas express sin comprometer calidad',
         title3: 'ML & Automatización',
         desc3: 'Soluciones inteligentes, no solo scripts',
@@ -30,9 +33,11 @@ export default function OnePager() {
         badge1: 'MSc in IT',
         badge2: 'EMBA',
         badge3: 'Software & Data Engineer',
-        bio1: 'Becado por la OEA para completar mi Maestría en TIC, especializado en Python, ML/AI y Data Analytics. Trabajo con equipos de LATAM y Europa, combinando ingeniería de software con visión estratégica para resolver problemas críticos en tiempo récord.',
+        bio1: 'Becado por la OEA para completar mi Maestría en TIC. Especializado en Python, ML/AI, automatización y análisis de datos. Trabajo con equipos de LATAM y Europa, combinando ingeniería técnica con visión estratégica para resolver problemas críticos en tiempo récord.',
         bio2: 'Mi enfoque:',
-        bio2b: ' Convertir sistemas legacy en soluciones escalables sin comprometer la operación. Zero downtime, máxima eficiencia.',
+        bio2b: ' Transformar sistemas legacy en soluciones escalables, seguras y trazables. Zero downtime. Máxima eficiencia. Entregas auditables.',
+        bio3: 'Propósito:',
+        bio3b: ' Acelerar la modernización tecnológica en sistemas públicos y empresariales mediante ingeniería reproducible, datos y automatización.',
         stack: 'Stack Tecnológico'
       },
       services: {
@@ -51,22 +56,22 @@ export default function OnePager() {
         }
       },
       process: {
-        title: '¿Cómo Funciona?',
-        subtitle: 'Proceso simple y transparente, de la consulta a la entrega',
+        title: 'Cómo funciona',
+        subtitle: 'Metodología DevSculpt – Entregas Técnicas de Precisión',
         step1: {
           time: '15-30 min',
           title: 'Contacto Inicial',
-          desc: 'Me contás tu problema. Analizo rápidamente el alcance y te confirmo si puedo ayudarte.'
+          desc: 'Me contás tu problema. Evalúo el alcance y confirmo viabilidad.'
         },
         step2: {
-          time: '1-2 horas',
+          time: '1-2 h',
           title: 'Análisis & Cotización',
-          desc: 'Reviso tu código/sistema. Te envío cotización exacta, alcance detallado y estimación realista de tiempo según complejidad.'
+          desc: 'Reviso código y entorno. Te envío cotización exacta, alcance detallado y tiempos realistas.'
         },
         step3: {
-          time: '48-72h típico',
+          time: '48-72h promedio',
           title: 'Desarrollo',
-          desc: 'Trabajo enfocado en tu proyecto con tiempo estimado en el paso 2. Updates diarios de progreso. Código limpio y documentado.'
+          desc: 'Implementación enfocada, updates diarios, código limpio y documentado.'
         },
         step4: {
           time: 'Inmediato',
@@ -74,16 +79,16 @@ export default function OnePager() {
           desc: 'Código + documentación + 7 días de soporte incluido. Todo listo para producción.'
         },
         guarantee1: {
-          title: 'Garantía de Entrega',
-          desc: 'Si no cumplo el plazo acordado, devuelvo el 25% del pago. Sin excusas.'
+          title: 'Garantía de Cumplimiento',
+          desc: 'Si no entrego en el plazo acordado, reintegro el 25% del pago. Sin excusas.'
         },
         guarantee2: {
           title: 'Disponibilidad Limitada',
-          desc: 'Solo acepto 2 proyectos simultáneos para garantizar calidad y velocidad.'
+          desc: 'Solo 2 proyectos simultáneos para garantizar calidad y velocidad.'
         },
         guarantee3: {
           title: 'Respuesta Rápida',
-          desc: 'Análisis inicial en 2-4 horas. Te confirmo viabilidad, tiempo estimado y podemos arrancar el mismo día si es urgente.'
+          desc: 'Análisis inicial en 2-4 h. Podemos iniciar el mismo día si el caso es urgente.'
         }
       },
       projects: {
@@ -91,18 +96,99 @@ export default function OnePager() {
         subtitle: 'Experiencia comprobada en sistemas críticos de producción',
         note: 'Los casos y métricas reflejan proyectos reales en sistemas gubernamentales y enterprise'
       },
+      network: {
+        title: 'DevSculp Network',
+        subtitle: 'Red de automatización inteligente con revenue-sharing',
+        description: 'Herramientas SaaS para desarrolladores, analistas y equipos técnicos. Accedé, usá y ganá recomendando.',
+        tagline: 'Usá, compartí, escalá y ganá',
+        howItWorks: '¿Cómo funciona?',
+        model: {
+          title1: '💼 Acceso a 6+ herramientas PRO',
+          desc1: 'AI Spec Writer, YAML Validator, JMeter Generator, Data Automation Suite, Code Scanner y AI Resume Reviewer. Todo listo para producción.',
+          title2: '💰 Ganá 20% por referido',
+          desc2: 'Cada usuario que invites obtiene prueba gratis. Vos ganás 20% de comisión recurrente de por vida en sus suscripciones PRO.',
+          title3: '⚙️ Sin infraestructura propia',
+          desc3: 'APIs REST listas para usar. No necesitás servidores, desarrollo ni mantenimiento. Solo registrate y compartí tu link único.'
+        },
+        pricing: {
+          title: 'Planes disponibles',
+          free: 'Free',
+          freePrice: '0 USD',
+          freeDesc: '1 ejecución por herramienta, export limitado',
+          freeIdeal: 'Usuarios curiosos / prueba',
+          proDev: 'PRO Dev',
+          proDevPrice: '15 USD/mes',
+          proDevDesc: 'Uso ilimitado, export Excel/PDF/JSON, nuevas tools',
+          proDevIdeal: 'Freelancers y técnicos',
+          proTeam: 'PRO Team',
+          proTeamPrice: '49 USD/mes',
+          proTeamDesc: 'Hasta 5 usuarios, control de acceso, soporte prioritario',
+          proTeamIdeal: 'Equipos dev y QA',
+          affiliate: 'Affiliate+',
+          affiliatePrice: '0 USD',
+          affiliateDesc: 'Gana 20% de comisión por cada referido activo',
+          affiliateIdeal: 'Creadores y comunidades tech'
+        },
+        whySubscribe: {
+          title: '¿Por qué suscribirte a DevSculp Tools?',
+          reason1: 'Automatizá tu trabajo',
+          reason1Desc: 'Generá documentación, validaciones y pruebas en segundos.',
+          reason2: 'Evitate retrabajos',
+          reason2Desc: 'Cada herramienta entrega resultados auditables, sin código complejo.',
+          reason3: 'Todo en un solo lugar',
+          reason3Desc: '6 herramientas que cubren desarrollo, QA y data.',
+          reason4: 'Ganá dinero recomendando',
+          reason4Desc: 'Invitá colegas y obtené 20% de comisión permanente.',
+          reason5: 'Actualizaciones continuas',
+          reason5Desc: 'Nuevas herramientas cada mes incluidas en tu plan PRO.',
+          cta1: 'Probar gratis',
+          cta2: 'Ver planes PRO',
+          cta3: 'Programa de referidos'
+        },
+        incentives: {
+          trial: '7 días de prueba gratis sin tarjeta',
+          badge: 'Badge "Beta Partner" para primeros usuarios',
+          social: '+200 horas ahorradas por nuestra comunidad este mes'
+        },
+        examples: {
+          title: 'Top 3 herramientas más pedidas (2025)',
+          tool1: '🧠 AI Spec Writer',
+          tool1Desc: 'Genera historias de usuario, casos de uso UML/BPMN y requisitos técnicos con IA. Exporta a Word/Markdown. USD 15/mes.',
+          tool2: '⚙️ YAML-to-Excel Validator',
+          tool2Desc: 'Convierte archivos YAML/JSON en planillas Excel organizadas y validadas. Perfecto para testers no técnicos. PRO: hasta 10 MB.',
+          tool3: '📈 JMeter Plan Generator',
+          tool3Desc: 'Crea planes JMeter .jmx completos desde JSON. Output descargable + reporte HTML. Compatible CI/CD. USD 10/mes.',
+          more: '+ Data Automation Suite, Code Quality Scanner, AI Resume Reviewer'
+        },
+        benefits: {
+          title: 'Beneficios clave',
+          benefit1: 'Ingresos pasivos recurrentes',
+          benefit2: 'Red de afiliados automática',
+          benefit3: 'Herramientas probadas 2025',
+          benefit4: 'Soporte técnico incluido'
+        },
+        stats: {
+          commission: '20%',
+          commissionLabel: 'Comisión de por vida',
+          uptime: '99.9%',
+          uptimeLabel: 'Disponibilidad API',
+          tools: '6+',
+          toolsLabel: 'Herramientas PRO'
+        },
+        comingSoon: 'Próximamente disponible'
+      },
       faq: {
         title: 'Preguntas Frecuentes',
         subtitle: 'Respuestas rápidas a las consultas más comunes'
       },
       contact: {
-        title: '¿Sistema en crisis o proceso\nmanual crítico?',
+        title: '¿Sistema en crisis o proceso\nmanual bloqueando tu operación?',
         subtitle: 'Hablemos hoy.',
-        subtitleHighlight: 'Te doy estimación realista en 30 minutos',
+        subtitleHighlight: 'Te envío una evaluación técnica y estimación realista en menos de 30 minutos',
         email: 'Email',
-        emailDesc: 'Respuesta en 24h',
+        emailDesc: 'Respuesta en 24 h',
         whatsapp: 'WhatsApp',
-        whatsappDesc: 'Respuesta inmediata',
+        whatsappDesc: 'Respuesta prioritaria',
         linkedin: 'LinkedIn',
         linkedinDesc: 'Conectemos'
       },
@@ -119,15 +205,18 @@ export default function OnePager() {
         contact: 'Contact'
       },
       hero: {
-        title: 'Software & Data Engineering\nfor Critical Systems.\nCustom Development',
-        subtitle: 'MSc in IT. Specialized in intelligent automation, ML, and enterprise system rescue with fast delivery according to project complexity, average 48h.',
+        title: 'Software & Data Engineering\nfor Critical Systems',
+        subtitle: 'Modernization, automation and strengthening of enterprise systems with fast, secure and auditable deliveries.',
+        subtitle2: 'Specialized in Machine Learning, intelligent automation and legacy system rescue.',
+        subtitle3: 'Average delivery: 48 h, depending on project complexity.',
         cta1: 'View services',
-        cta2: 'View real projects'
+        cta2: 'Schedule video call',
+        cta3: 'View real projects'
       },
       differentiators: {
         title1: 'MSc + EMBA',
         desc1: 'Technical and strategic business vision',
-        title2: '24-48h Guaranteed',
+        title2: '48-72h Guaranteed',
         desc2: 'Express delivery without compromising quality',
         title3: 'ML & Automation',
         desc3: 'Intelligent solutions, not just scripts',
@@ -139,9 +228,11 @@ export default function OnePager() {
         badge1: 'MSc in IT',
         badge2: 'EMBA',
         badge3: 'Software & Data Engineer',
-        bio1: 'OAS scholarship recipient to complete my Master\'s in ICT, specialized in Python, ML/AI and Data Analytics. I work with teams in LATAM and Europe, combining software engineering with strategic vision to solve critical problems in record time.',
+        bio1: 'OAS scholarship recipient to complete my Master\'s in ICT. Specialized in Python, ML/AI, automation and data analytics. I work with teams in LATAM and Europe, combining technical engineering with strategic vision to solve critical problems in record time.',
         bio2: 'My approach:',
-        bio2b: ' Transform legacy systems into scalable solutions without compromising operations. Zero downtime, maximum efficiency.',
+        bio2b: ' Transform legacy systems into scalable, secure and traceable solutions. Zero downtime. Maximum efficiency. Auditable deliveries.',
+        bio3: 'Purpose:',
+        bio3b: ' Accelerate technological modernization in public and enterprise systems through reproducible engineering, data and automation.',
         stack: 'Tech Stack'
       },
       services: {
@@ -160,22 +251,22 @@ export default function OnePager() {
         }
       },
       process: {
-        title: 'How It Works?',
-        subtitle: 'Simple and transparent process, from inquiry to delivery',
+        title: 'How it works',
+        subtitle: 'DevSculpt Methodology – Precision Technical Deliveries',
         step1: {
           time: '15-30 min',
           title: 'Initial Contact',
-          desc: 'Tell me your problem. I quickly analyze the scope and confirm if I can help you.'
+          desc: 'Tell me your problem. I evaluate scope and confirm feasibility.'
         },
         step2: {
-          time: '1-2 hours',
+          time: '1-2 h',
           title: 'Analysis & Quote',
-          desc: 'I review your code/system. I send you exact quote, detailed scope and realistic time estimation based on complexity.'
+          desc: 'I review code and environment. I send exact quote, detailed scope and realistic timelines.'
         },
         step3: {
-          time: '48-72h typical',
+          time: '48-72h average',
           title: 'Development',
-          desc: 'Focused work on your project with time estimated in step 2. Daily progress updates. Clean and documented code.'
+          desc: 'Focused implementation, daily updates, clean and documented code.'
         },
         step4: {
           time: 'Immediate',
@@ -183,16 +274,16 @@ export default function OnePager() {
           desc: 'Code + documentation + 7 days of included support. Ready for production.'
         },
         guarantee1: {
-          title: 'Delivery Guarantee',
-          desc: 'If I don\'t meet the agreed deadline, I refund 25% of payment. No excuses.'
+          title: 'Fulfillment Guarantee',
+          desc: 'If I don\'t deliver within agreed timeline, I refund 25% of payment. No excuses.'
         },
         guarantee2: {
           title: 'Limited Availability',
-          desc: 'I only accept 2 simultaneous projects to guarantee quality and speed.'
+          desc: 'Only 2 simultaneous projects to guarantee quality and speed.'
         },
         guarantee3: {
           title: 'Quick Response',
-          desc: 'Initial analysis in 2-4 hours. I confirm feasibility, estimated time and we can start same day if urgent.'
+          desc: 'Initial analysis in 2-4 h. We can start same day if case is urgent.'
         }
       },
       projects: {
@@ -200,18 +291,99 @@ export default function OnePager() {
         subtitle: 'Proven experience in critical production systems',
         note: 'Cases and metrics reflect real projects in government and enterprise systems'
       },
+      network: {
+        title: 'DevSculp Network',
+        subtitle: 'Smart automation network with revenue-sharing',
+        description: 'SaaS tools for developers, analysts and technical teams. Access, use and earn by recommending.',
+        tagline: 'Use, share, scale and earn',
+        howItWorks: 'How it works?',
+        model: {
+          title1: '💼 Access 6+ PRO tools',
+          desc1: 'AI Spec Writer, YAML Validator, JMeter Generator, Data Automation Suite, Code Scanner and AI Resume Reviewer. Production-ready.',
+          title2: '💰 Earn 20% per referral',
+          desc2: 'Each user you invite gets a free trial. You earn 20% recurring lifetime commission on their PRO subscriptions.',
+          title3: '⚙️ No infrastructure needed',
+          desc3: 'REST APIs ready to use. No servers, development or maintenance needed. Just register and share your unique link.'
+        },
+        pricing: {
+          title: 'Available plans',
+          free: 'Free',
+          freePrice: '0 USD',
+          freeDesc: '1 execution per tool, limited export',
+          freeIdeal: 'Curious users / trial',
+          proDev: 'PRO Dev',
+          proDevPrice: '15 USD/month',
+          proDevDesc: 'Unlimited usage, Excel/PDF/JSON export, new tools',
+          proDevIdeal: 'Freelancers and technicians',
+          proTeam: 'PRO Team',
+          proTeamPrice: '49 USD/month',
+          proTeamDesc: 'Up to 5 users, access control, priority support',
+          proTeamIdeal: 'Dev and QA teams',
+          affiliate: 'Affiliate+',
+          affiliatePrice: '0 USD',
+          affiliateDesc: 'Earn 20% commission per active referral',
+          affiliateIdeal: 'Creators and tech communities'
+        },
+        whySubscribe: {
+          title: 'Why subscribe to DevSculp Tools?',
+          reason1: 'Automate your work',
+          reason1Desc: 'Generate documentation, validations and tests in seconds.',
+          reason2: 'Avoid rework',
+          reason2Desc: 'Each tool delivers auditable results, without complex code.',
+          reason3: 'Everything in one place',
+          reason3Desc: '6 tools covering development, QA and data.',
+          reason4: 'Earn by recommending',
+          reason4Desc: 'Invite colleagues and get 20% permanent commission.',
+          reason5: 'Continuous updates',
+          reason5Desc: 'New tools every month included in your PRO plan.',
+          cta1: 'Try free',
+          cta2: 'View PRO plans',
+          cta3: 'Referral program'
+        },
+        incentives: {
+          trial: '7 days free trial without credit card',
+          badge: '"Beta Partner" badge for early users',
+          social: '+200 hours saved by our community this month'
+        },
+        examples: {
+          title: 'Top 3 most requested tools (2025)',
+          tool1: '🧠 AI Spec Writer',
+          tool1Desc: 'Generate user stories, UML/BPMN use cases and technical requirements with AI. Export to Word/Markdown. USD 15/month.',
+          tool2: '⚙️ YAML-to-Excel Validator',
+          tool2Desc: 'Convert YAML/JSON files to organized and validated Excel sheets. Perfect for non-technical testers. PRO: up to 10 MB.',
+          tool3: '📈 JMeter Plan Generator',
+          tool3Desc: 'Create complete JMeter .jmx plans from JSON. Downloadable output + HTML report. CI/CD compatible. USD 10/month.',
+          more: '+ Data Automation Suite, Code Quality Scanner, AI Resume Reviewer'
+        },
+        benefits: {
+          title: 'Key benefits',
+          benefit1: 'Passive recurring income',
+          benefit2: 'Automatic affiliate network',
+          benefit3: 'Proven 2025 tools',
+          benefit4: 'Technical support included'
+        },
+        stats: {
+          commission: '20%',
+          commissionLabel: 'Lifetime commission',
+          uptime: '99.9%',
+          uptimeLabel: 'API availability',
+          tools: '6+',
+          toolsLabel: 'PRO tools'
+        },
+        comingSoon: 'Coming soon'
+      },
       faq: {
         title: 'Frequently Asked Questions',
         subtitle: 'Quick answers to common questions'
       },
       contact: {
-        title: 'System in crisis or critical\nmanual process?',
+        title: 'System in crisis or manual process\nblocking your operation?',
         subtitle: 'Let\'s talk today.',
-        subtitleHighlight: 'I give you realistic estimate in 2 hours',
+        subtitleHighlight: 'I send technical assessment and realistic estimate in less than 30 minutes',
         email: 'Email',
-        emailDesc: 'Response in 24h',
+        emailDesc: 'Response in 24 h',
         whatsapp: 'WhatsApp',
-        whatsappDesc: 'Immediate response',
+        whatsappDesc: 'Priority response',
         linkedin: 'LinkedIn',
         linkedinDesc: 'Let\'s connect'
       },
@@ -232,15 +404,16 @@ export default function OnePager() {
       id: 1,
       title: 'Legacy System Rescue',
       price: 'USD 650',
-      time: 'Desde 48h',
-      description: 'Rescate express de sistemas críticos en producción con fallas técnicas',
+      time: 'Desde 48 h',
+      description: 'Recuperación express de sistemas críticos en producción con fallas técnicas',
       deliverables: [
-        'Diagnóstico completo y plan de acción',
+        'Diagnóstico y plan de acción',
         'Fix de errores críticos y deployment funcional',
         'Testing automatizado y validación',
         'Documentación técnica + guía de contingencia',
-        'Code review y mejores prácticas aplicadas'
+        'Code review y mejores prácticas'
       ],
+      purpose: 'Garantizar continuidad operativa donde el downtime no es opción',
       paymentLinks: {
         mercadopago: 'https://link.mercadopago.com.uy/gllera',
         paypal: 'https://paypal.me/lleragonzalo/650'
@@ -250,15 +423,16 @@ export default function OnePager() {
       id: 2,
       title: 'Data Automation Suite',
       price: 'USD 500',
-      time: 'Desde 48h',
+      time: 'Desde 48 h',
       description: 'Automatización inteligente de procesos manuales con análisis y reportería',
       deliverables: [
-        'Script de automatización con ML/reglas de negocio',
+        'Scripts de automatización con ML o reglas de negocio',
         'Integración con bases de datos y APIs',
         'Reportes ejecutivos automatizados (Excel/PDF)',
         'Dashboard de métricas y KPIs',
         'Documentación de uso y mantenimiento'
       ],
+      purpose: 'Liberar tiempo técnico y transformar tareas manuales en decisiones basadas en datos',
       paymentLinks: {
         mercadopago: 'https://link.mercadopago.com.uy/gllera',
         paypal: 'https://paypal.me/lleragonzalo/500'
@@ -268,15 +442,16 @@ export default function OnePager() {
       id: 3,
       title: 'Performance Optimization',
       price: 'USD 400',
-      time: 'Desde 48h',
-      description: 'Análisis y optimización de performance para APIs y sistemas enterprise',
+      time: 'Desde 48 h',
+      description: 'Optimización de performance para APIs y sistemas enterprise',
       deliverables: [
         'Auditoría de performance y bottlenecks',
-        'Plan de pruebas de carga parametrizable',
-        'Reporte profesional con insights accionables',
+        'Plan de pruebas de carga (JMeter)',
+        'Reporte con insights accionables',
         'Recomendaciones de arquitectura y tuning',
         'Integración CI/CD para monitoreo continuo'
       ],
+      purpose: 'Maximizar eficiencia y trazabilidad técnica en entornos de alta demanda',
       paymentLinks: {
         mercadopago: 'https://link.mercadopago.com.uy/gllera',
         paypal: 'https://paypal.me/lleragonzalo/400'
@@ -287,7 +462,7 @@ export default function OnePager() {
       title: 'Desarrollo a Medida',
       price: 'A consultar',
       time: 'Según alcance',
-      description: 'Desarrollo personalizado de aplicaciones web y backend según tus necesidades',
+      description: 'Desarrollo de aplicaciones web, backend y automatización adaptadas a tus necesidades',
       deliverables: [
         'Análisis de requerimientos y planificación',
         'Desarrollo backend (Python, FastAPI, Java) o frontend (React, TypeScript, Next.js)',
@@ -295,6 +470,7 @@ export default function OnePager() {
         'Testing completo (Jest, Playwright) y documentación',
         'Deployment y capacitación del equipo'
       ],
+      purpose: 'Entregar soluciones estables, escalables y listas para producción, con documentación y soporte incluidos',
       paymentLinks: {
         mercadopago: 'https://link.mercadopago.com.uy/gllera',
         paypal: 'https://paypal.me/lleragonzalo'
@@ -305,15 +481,16 @@ export default function OnePager() {
       id: 1,
       title: 'Legacy System Rescue',
       price: 'USD 650',
-      time: 'From 48h',
-      description: 'Express rescue of critical production systems with technical failures',
+      time: 'From 48 h',
+      description: 'Express recovery of critical production systems with technical failures',
       deliverables: [
-        'Complete diagnosis and action plan',
+        'Diagnosis and action plan',
         'Critical error fixes and functional deployment',
         'Automated testing and validation',
         'Technical documentation + contingency guide',
-        'Code review and best practices applied'
+        'Code review and best practices'
       ],
+      purpose: 'Guarantee operational continuity where downtime is not an option',
       paymentLinks: {
         mercadopago: 'https://link.mercadopago.com.uy/gllera',
         paypal: 'https://paypal.me/lleragonzalo/650'
@@ -323,15 +500,16 @@ export default function OnePager() {
       id: 2,
       title: 'Data Automation Suite',
       price: 'USD 500',
-      time: 'From 48h',
+      time: 'From 48 h',
       description: 'Intelligent automation of manual processes with analysis and reporting',
       deliverables: [
-        'Automation script with ML/business rules',
+        'Automation scripts with ML or business rules',
         'Database and API integration',
         'Automated executive reports (Excel/PDF)',
         'Metrics and KPIs dashboard',
         'Usage and maintenance documentation'
       ],
+      purpose: 'Free technical time and transform manual tasks into data-driven decisions',
       paymentLinks: {
         mercadopago: 'https://link.mercadopago.com.uy/gllera',
         paypal: 'https://paypal.me/lleragonzalo/500'
@@ -341,15 +519,16 @@ export default function OnePager() {
       id: 3,
       title: 'Performance Optimization',
       price: 'USD 400',
-      time: 'From 48h',
-      description: 'Performance analysis and optimization for enterprise APIs and systems',
+      time: 'From 48 h',
+      description: 'Performance optimization for enterprise APIs and systems',
       deliverables: [
         'Performance audit and bottlenecks',
-        'Parametrizable load testing plan',
-        'Professional report with actionable insights',
+        'Load testing plan (JMeter)',
+        'Report with actionable insights',
         'Architecture and tuning recommendations',
         'CI/CD integration for continuous monitoring'
       ],
+      purpose: 'Maximize efficiency and technical traceability in high-demand environments',
       paymentLinks: {
         mercadopago: 'https://link.mercadopago.com.uy/gllera',
         paypal: 'https://paypal.me/lleragonzalo/400'
@@ -360,7 +539,7 @@ export default function OnePager() {
       title: 'Custom Development',
       price: 'On request',
       time: 'Based on scope',
-      description: 'Custom web and backend application development tailored to your needs',
+      description: 'Web application, backend and automation development tailored to your needs',
       deliverables: [
         'Requirements analysis and planning',
         'Backend (Python, FastAPI, Java) or frontend (React, TypeScript, Next.js) development',
@@ -368,6 +547,7 @@ export default function OnePager() {
         'Complete testing (Jest, Playwright) and documentation',
         'Deployment and team training'
       ],
+      purpose: 'Deliver stable, scalable and production-ready solutions, with documentation and support included',
       paymentLinks: {
         mercadopago: 'https://link.mercadopago.com.uy/gllera',
         paypal: 'https://paypal.me/lleragonzalo'
@@ -467,6 +647,10 @@ export default function OnePager() {
     {
       question: '¿Ofrecés soporte post-entrega?',
       answer: 'Sí. Incluyo 7 días de soporte para dudas o ajustes menores relacionados con el entregable. Para mantenimiento continuo, podemos acordar un retainer mensual.'
+    },
+    {
+      question: '¿Cómo garantizás la confidencialidad?',
+      answer: 'Todos los proyectos se manejan bajo acuerdo de confidencialidad (NDA) o cláusula institucional, asegurando resguardo de datos y código.'
     }
   ] : [
     {
@@ -480,6 +664,10 @@ export default function OnePager() {
     {
       question: 'Do you offer post-delivery support?',
       answer: 'Yes. I include 7 days of support for questions or minor adjustments related to the deliverable. For continuous maintenance, we can agree on a monthly retainer.'
+    },
+    {
+      question: 'How do you guarantee confidentiality?',
+      answer: 'All projects are handled under non-disclosure agreement (NDA) or institutional clause, ensuring protection of data and code.'
     }
   ];
 
@@ -529,17 +717,23 @@ export default function OnePager() {
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 bg-gradient-to-r from-teal-400 to-blue-400 bg-clip-text text-transparent leading-tight whitespace-pre-line">
               {t.hero.title}
             </h1>
-            <p className="text-xl sm:text-2xl text-slate-300 mb-6 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-xl text-slate-300 mb-3 max-w-3xl mx-auto leading-relaxed">
               {t.hero.subtitle}
+            </p>
+            <p className="text-lg text-slate-400 mb-3 max-w-3xl mx-auto">
+              {t.hero.subtitle2}
+            </p>
+            <p className="text-base text-slate-500 mb-8 max-w-2xl mx-auto">
+              {t.hero.subtitle3}
             </p>
             
             {/* Tagline de experiencia */}
             <div className="flex items-center justify-center gap-3 mb-12">
               <div className="h-px w-12 bg-gradient-to-r from-transparent to-teal-500"></div>
-              <p className="text-base text-slate-400 italic">
+              <p className="text-sm text-slate-400 italic max-w-3xl">
                 {language === 'es' 
-                  ? '8 años de experiencia en sistemas gubernamentales y corporativos. Desarrollo rápido, seguro y auditado.' 
-                  : '8 years of experience in government and corporate systems. Fast, secure and audited development.'}
+                  ? '8 años de experiencia en entornos gubernamentales y corporativos. Desarrollo rápido, confiable y con documentación lista para auditoría.' 
+                  : '8 years of experience in government and corporate environments. Fast, reliable development with audit-ready documentation.'}
               </p>
               <div className="h-px w-12 bg-gradient-to-l from-transparent to-teal-500"></div>
             </div>
@@ -560,16 +754,16 @@ export default function OnePager() {
                 <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                 </svg>
-                <span>{language === 'es' ? 'Agendar Videollamada Gratis' : 'Schedule Free Video Call'}</span>
+                <span>{t.hero.cta2}</span>
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                 </svg>
               </a>
               <button
-                onClick={() => scrollToSection('confianza')}
-                className="px-8 py-4 bg-slate-800 hover:bg-slate-700 text-white font-semibold rounded-2xl border border-slate-700 transition-all"
+                onClick={() => scrollToSection('proyectos')}
+                className="px-8 py-4 bg-slate-800 hover:bg-slate-700 text-white font-semibold rounded-2xl border border-slate-700 hover:border-teal-500 transition-all transform hover:scale-105"
               >
-                {t.hero.cta2}
+                {t.hero.cta3}
               </button>
             </div>
           </div>
@@ -645,8 +839,12 @@ export default function OnePager() {
             <p className="text-base text-slate-300 mb-10 text-center leading-relaxed max-w-3xl mx-auto">
               {t.about.bio1}
             </p>
-            <p className="text-base text-slate-400 text-center max-w-2xl mx-auto mb-12">
+            <p className="text-base text-slate-400 text-center max-w-2xl mx-auto mb-6">
               <strong className="text-teal-400">{t.about.bio2}</strong>{t.about.bio2b}
+            </p>
+
+            <p className="text-base text-slate-400 text-center max-w-2xl mx-auto mb-12">
+              <strong className="text-teal-400">{t.about.bio3}</strong>{t.about.bio3b}
             </p>
             
             <div className="bg-slate-900 rounded-2xl p-8 border border-slate-700 mt-2">
@@ -714,8 +912,17 @@ export default function OnePager() {
                     </ul>
                   </div>
 
+                  {/* Propósito */}
+                  {services[3].purpose && (
+                    <div className="mt-6 p-4 bg-slate-800/50 rounded-xl border border-teal-500/30">
+                      <p className="text-sm text-slate-400 italic">
+                        <strong className="text-teal-400 not-italic">{language === 'es' ? 'Propósito:' : 'Purpose:'}</strong> {services[3].purpose}
+                      </p>
+                    </div>
+                  )}
+
                   {/* Botones de contacto */}
-                  <div className="grid md:grid-cols-2 gap-3 mb-4">
+                  <div className="grid md:grid-cols-2 gap-3 mb-4 mt-6">
                     <a
                       href="https://calendly.com/devsculpt10/30min"
                       target="_blank"
@@ -806,6 +1013,15 @@ export default function OnePager() {
                     ))}
                   </ul>
                 </div>
+
+                {/* Propósito */}
+                {service.purpose && (
+                  <div className="mb-6 p-4 bg-slate-900/50 rounded-xl border border-teal-500/20">
+                    <p className="text-sm text-slate-400 italic">
+                      <strong className="text-teal-400 not-italic">{language === 'es' ? 'Propósito:' : 'Purpose:'}</strong> {service.purpose}
+                    </p>
+                  </div>
+                )}
 
                 {/* Botones de pago - Reemplazar links */}
                 <div className="space-y-3">
@@ -1042,6 +1258,318 @@ export default function OnePager() {
                 {t.projects.note}
               </p>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* DevSculp Network */}
+      <section id="network" className="py-20 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 border-t border-slate-700">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          {/* Header */}
+          <div className="text-center mb-16">
+            <div className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-purple-500/10 to-teal-500/10 border border-purple-500/30 rounded-full mb-6">
+              <svg className="w-5 h-5 text-purple-400" fill="currentColor" viewBox="0 0 20 20">
+                <path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3zM6 8a2 2 0 11-4 0 2 2 0 014 0zM16 18v-3a5.972 5.972 0 00-.75-2.906A3.005 3.005 0 0119 15v3h-3zM4.75 12.094A5.973 5.973 0 004 15v3H1v-3a3 3 0 013.75-2.906z" />
+              </svg>
+              <span className="text-sm font-semibold text-purple-400 uppercase tracking-wide">{t.network.comingSoon}</span>
+            </div>
+            
+            <h2 className="text-4xl sm:text-5xl font-bold mb-4 bg-gradient-to-r from-purple-400 via-teal-400 to-blue-400 bg-clip-text text-transparent">
+              {t.network.title}
+            </h2>
+            <p className="text-xl text-slate-300 mb-3 max-w-3xl mx-auto">
+              {t.network.subtitle}
+            </p>
+            <p className="text-base text-slate-400 max-w-2xl mx-auto">
+              {t.network.description}
+            </p>
+          </div>
+
+          {/* Stats destacadas */}
+          <div className="grid md:grid-cols-3 gap-6 mb-16">
+            <div className="bg-gradient-to-br from-purple-900/20 to-purple-800/10 rounded-2xl p-8 border border-purple-500/30 text-center">
+              <div className="text-5xl font-bold text-purple-400 mb-2">{t.network.stats.commission}</div>
+              <p className="text-slate-300 font-semibold">{t.network.stats.commissionLabel}</p>
+            </div>
+            <div className="bg-gradient-to-br from-teal-900/20 to-teal-800/10 rounded-2xl p-8 border border-teal-500/30 text-center">
+              <div className="text-5xl font-bold text-teal-400 mb-2">{t.network.stats.uptime}</div>
+              <p className="text-slate-300 font-semibold">{t.network.stats.uptimeLabel}</p>
+            </div>
+            <div className="bg-gradient-to-br from-blue-900/20 to-blue-800/10 rounded-2xl p-8 border border-blue-500/30 text-center">
+              <div className="text-5xl font-bold text-blue-400 mb-2">{t.network.stats.tools}</div>
+              <p className="text-slate-300 font-semibold">{t.network.stats.toolsLabel}</p>
+            </div>
+          </div>
+
+          {/* Cómo funciona - Modelo */}
+          <div className="mb-16">
+            <h3 className="text-2xl font-bold text-center mb-10 text-white">{t.network.howItWorks}</h3>
+            <div className="grid md:grid-cols-3 gap-6">
+              <div className="bg-slate-800/50 rounded-2xl p-8 border border-slate-700 hover:border-purple-500/50 transition-all group">
+                <div className="text-4xl mb-4 group-hover:scale-110 transition-transform">💼</div>
+                <h4 className="text-xl font-bold mb-3 text-purple-400">{t.network.model.title1}</h4>
+                <p className="text-slate-300 text-sm leading-relaxed">{t.network.model.desc1}</p>
+              </div>
+              <div className="bg-slate-800/50 rounded-2xl p-8 border border-slate-700 hover:border-teal-500/50 transition-all group">
+                <div className="text-4xl mb-4 group-hover:scale-110 transition-transform">💰</div>
+                <h4 className="text-xl font-bold mb-3 text-teal-400">{t.network.model.title2}</h4>
+                <p className="text-slate-300 text-sm leading-relaxed">{t.network.model.desc2}</p>
+              </div>
+              <div className="bg-slate-800/50 rounded-2xl p-8 border border-slate-700 hover:border-blue-500/50 transition-all group">
+                <div className="text-4xl mb-4 group-hover:scale-110 transition-transform">⚙️</div>
+                <h4 className="text-xl font-bold mb-3 text-blue-400">{t.network.model.title3}</h4>
+                <p className="text-slate-300 text-sm leading-relaxed">{t.network.model.desc3}</p>
+              </div>
+            </div>
+          </div>
+
+          {/* Por qué suscribirte */}
+          <div className="mb-16">
+            <h3 className="text-2xl font-bold text-center mb-10 text-white">{t.network.whySubscribe.title}</h3>
+            <div className="max-w-4xl mx-auto space-y-4">
+              <div className="flex items-start gap-4 p-5 bg-slate-800/30 rounded-xl border border-slate-700 hover:border-teal-500/50 transition-all">
+                <div className="w-10 h-10 bg-teal-500/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <span className="text-xl">⚡</span>
+                </div>
+                <div>
+                  <h4 className="font-bold text-white mb-1">{t.network.whySubscribe.reason1}</h4>
+                  <p className="text-slate-400 text-sm">{t.network.whySubscribe.reason1Desc}</p>
+                </div>
+              </div>
+              <div className="flex items-start gap-4 p-5 bg-slate-800/30 rounded-xl border border-slate-700 hover:border-teal-500/50 transition-all">
+                <div className="w-10 h-10 bg-teal-500/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <span className="text-xl">✅</span>
+                </div>
+                <div>
+                  <h4 className="font-bold text-white mb-1">{t.network.whySubscribe.reason2}</h4>
+                  <p className="text-slate-400 text-sm">{t.network.whySubscribe.reason2Desc}</p>
+                </div>
+              </div>
+              <div className="flex items-start gap-4 p-5 bg-slate-800/30 rounded-xl border border-slate-700 hover:border-teal-500/50 transition-all">
+                <div className="w-10 h-10 bg-teal-500/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <span className="text-xl">🎯</span>
+                </div>
+                <div>
+                  <h4 className="font-bold text-white mb-1">{t.network.whySubscribe.reason3}</h4>
+                  <p className="text-slate-400 text-sm">{t.network.whySubscribe.reason3Desc}</p>
+                </div>
+              </div>
+              <div className="flex items-start gap-4 p-5 bg-slate-800/30 rounded-xl border border-slate-700 hover:border-teal-500/50 transition-all">
+                <div className="w-10 h-10 bg-teal-500/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <span className="text-xl">💰</span>
+                </div>
+                <div>
+                  <h4 className="font-bold text-white mb-1">{t.network.whySubscribe.reason4}</h4>
+                  <p className="text-slate-400 text-sm">{t.network.whySubscribe.reason4Desc}</p>
+                </div>
+              </div>
+              <div className="flex items-start gap-4 p-5 bg-slate-800/30 rounded-xl border border-slate-700 hover:border-teal-500/50 transition-all">
+                <div className="w-10 h-10 bg-teal-500/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <span className="text-xl">🚀</span>
+                </div>
+                <div>
+                  <h4 className="font-bold text-white mb-1">{t.network.whySubscribe.reason5}</h4>
+                  <p className="text-slate-400 text-sm">{t.network.whySubscribe.reason5Desc}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Herramientas disponibles */}
+          <div className="mb-16">
+            <h3 className="text-2xl font-bold text-center mb-10 text-white">{t.network.examples.title}</h3>
+            <div className="grid md:grid-cols-3 gap-6 mb-8">
+              <div className="bg-gradient-to-br from-slate-800 to-slate-900 rounded-2xl p-6 border border-slate-700 hover:border-purple-500/50 transition-all">
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="w-12 h-12 bg-purple-500/10 rounded-xl flex items-center justify-center">
+                    <svg className="w-6 h-6 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                    </svg>
+                  </div>
+                  <h4 className="font-bold text-lg text-white">{t.network.examples.tool1}</h4>
+                </div>
+                <p className="text-slate-400 text-sm leading-relaxed">{t.network.examples.tool1Desc}</p>
+              </div>
+              <div className="bg-gradient-to-br from-slate-800 to-slate-900 rounded-2xl p-6 border border-slate-700 hover:border-teal-500/50 transition-all">
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="w-12 h-12 bg-teal-500/10 rounded-xl flex items-center justify-center">
+                    <svg className="w-6 h-6 text-teal-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                    </svg>
+                  </div>
+                  <h4 className="font-bold text-lg text-white">{t.network.examples.tool2}</h4>
+                </div>
+                <p className="text-slate-400 text-sm leading-relaxed">{t.network.examples.tool2Desc}</p>
+              </div>
+              <div className="bg-gradient-to-br from-slate-800 to-slate-900 rounded-2xl p-6 border border-slate-700 hover:border-blue-500/50 transition-all">
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="w-12 h-12 bg-blue-500/10 rounded-xl flex items-center justify-center">
+                    <svg className="w-6 h-6 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                    </svg>
+                  </div>
+                  <h4 className="font-bold text-lg text-white">{t.network.examples.tool3}</h4>
+                </div>
+                <p className="text-slate-400 text-sm leading-relaxed">{t.network.examples.tool3Desc}</p>
+              </div>
+            </div>
+            {/* Más herramientas */}
+            <div className="text-center">
+              <div className="inline-flex items-center gap-2 px-6 py-3 bg-slate-800/50 border border-slate-700 rounded-xl">
+                <svg className="w-5 h-5 text-teal-400" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v2H7a1 1 0 100 2h2v2a1 1 0 102 0v-2h2a1 1 0 100-2h-2V7z" clipRule="evenodd" />
+                </svg>
+                <span className="text-slate-300 font-medium text-sm">{t.network.examples.more}</span>
+              </div>
+            </div>
+          </div>
+
+          {/* Pricing */}
+          <div className="mb-16">
+            <h3 className="text-2xl font-bold text-center mb-10 text-white">{t.network.pricing.title}</h3>
+            <div className="grid md:grid-cols-4 gap-6 max-w-6xl mx-auto">
+              {/* Plan Free */}
+              <div className="bg-slate-800/30 rounded-2xl p-6 border border-slate-700 text-center hover:border-slate-600 transition-all">
+                <h4 className="text-xl font-bold text-white mb-2">{t.network.pricing.free}</h4>
+                <div className="text-3xl font-bold text-teal-400 mb-4">{t.network.pricing.freePrice}</div>
+                <p className="text-slate-400 text-sm mb-4 min-h-[60px]">{t.network.pricing.freeDesc}</p>
+                <div className="pt-4 border-t border-slate-700">
+                  <p className="text-xs text-slate-500">{t.network.pricing.freeIdeal}</p>
+                </div>
+              </div>
+              
+              {/* Plan PRO Dev - Destacado */}
+              <div className="bg-gradient-to-br from-teal-900/20 to-teal-800/10 rounded-2xl p-6 border-2 border-teal-500/50 text-center relative overflow-hidden hover:border-teal-500 transition-all transform hover:scale-105">
+                <div className="absolute top-0 right-0 bg-teal-500 text-white text-xs font-bold px-3 py-1 rounded-bl-lg">
+                  {language === 'es' ? 'Popular' : 'Popular'}
+                </div>
+                <h4 className="text-xl font-bold text-teal-400 mb-2">{t.network.pricing.proDev}</h4>
+                <div className="text-3xl font-bold text-white mb-4">{t.network.pricing.proDevPrice}</div>
+                <p className="text-slate-300 text-sm mb-4 min-h-[60px]">{t.network.pricing.proDevDesc}</p>
+                <div className="pt-4 border-t border-slate-700">
+                  <p className="text-xs text-slate-400">{t.network.pricing.proDevIdeal}</p>
+                </div>
+              </div>
+
+              {/* Plan PRO Team */}
+              <div className="bg-slate-800/30 rounded-2xl p-6 border border-slate-700 text-center hover:border-purple-500/50 transition-all">
+                <h4 className="text-xl font-bold text-white mb-2">{t.network.pricing.proTeam}</h4>
+                <div className="text-3xl font-bold text-purple-400 mb-4">{t.network.pricing.proTeamPrice}</div>
+                <p className="text-slate-400 text-sm mb-4 min-h-[60px]">{t.network.pricing.proTeamDesc}</p>
+                <div className="pt-4 border-t border-slate-700">
+                  <p className="text-xs text-slate-500">{t.network.pricing.proTeamIdeal}</p>
+                </div>
+              </div>
+
+              {/* Plan Affiliate+ */}
+              <div className="bg-slate-800/30 rounded-2xl p-6 border border-slate-700 text-center hover:border-blue-500/50 transition-all">
+                <h4 className="text-xl font-bold text-white mb-2">{t.network.pricing.affiliate}</h4>
+                <div className="text-3xl font-bold text-blue-400 mb-4">{t.network.pricing.affiliatePrice}</div>
+                <p className="text-slate-400 text-sm mb-4 min-h-[60px]">{t.network.pricing.affiliateDesc}</p>
+                <div className="pt-4 border-t border-slate-700">
+                  <p className="text-xs text-slate-500">{t.network.pricing.affiliateIdeal}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Beneficios */}
+          <div className="mb-12">
+            <h3 className="text-2xl font-bold text-center mb-10 text-white">{t.network.benefits.title}</h3>
+            <div className="grid md:grid-cols-4 gap-6 max-w-5xl mx-auto">
+              <div className="flex flex-col items-center text-center">
+                <div className="w-14 h-14 bg-purple-500/10 rounded-full flex items-center justify-center mb-4">
+                  <svg className="w-7 h-7 text-purple-400" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clipRule="evenodd" />
+                  </svg>
+                </div>
+                <p className="text-slate-300 font-medium text-sm">{t.network.benefits.benefit1}</p>
+              </div>
+              <div className="flex flex-col items-center text-center">
+                <div className="w-14 h-14 bg-teal-500/10 rounded-full flex items-center justify-center mb-4">
+                  <svg className="w-7 h-7 text-teal-400" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3zM6 8a2 2 0 11-4 0 2 2 0 014 0zM16 18v-3a5.972 5.972 0 00-.75-2.906A3.005 3.005 0 0119 15v3h-3zM4.75 12.094A5.973 5.973 0 004 15v3H1v-3a3 3 0 013.75-2.906z" />
+                  </svg>
+                </div>
+                <p className="text-slate-300 font-medium text-sm">{t.network.benefits.benefit2}</p>
+              </div>
+              <div className="flex flex-col items-center text-center">
+                <div className="w-14 h-14 bg-blue-500/10 rounded-full flex items-center justify-center mb-4">
+                  <svg className="w-7 h-7 text-blue-400" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                  </svg>
+                </div>
+                <p className="text-slate-300 font-medium text-sm">{t.network.benefits.benefit3}</p>
+              </div>
+              <div className="flex flex-col items-center text-center">
+                <div className="w-14 h-14 bg-green-500/10 rounded-full flex items-center justify-center mb-4">
+                  <svg className="w-7 h-7 text-green-400" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-2 0c0 .993-.241 1.929-.668 2.754l-1.524-1.525a3.997 3.997 0 00.078-2.183l1.562-1.562C15.802 8.249 16 9.1 16 10zm-5.165 3.913l1.58 1.58A5.98 5.98 0 0110 16a5.976 5.976 0 01-2.516-.552l1.562-1.562a4.006 4.006 0 001.789.027zm-4.677-2.796a4.002 4.002 0 01-.041-2.08l-.08.08-1.53-1.533A5.98 5.98 0 004 10c0 .954.223 1.856.619 2.657l1.54-1.54zm1.088-6.45A5.974 5.974 0 0110 4c.954 0 1.856.223 2.657.619l-1.54 1.54a4.002 4.002 0 00-2.346.033L7.246 4.668zM12 10a2 2 0 11-4 0 2 2 0 014 0z" clipRule="evenodd" />
+                  </svg>
+                </div>
+                <p className="text-slate-300 font-medium text-sm">{t.network.benefits.benefit4}</p>
+              </div>
+            </div>
+          </div>
+
+          {/* Incentivos adicionales */}
+          <div className="mb-12">
+            <div className="max-w-4xl mx-auto grid md:grid-cols-3 gap-6">
+              <div className="bg-gradient-to-br from-green-900/20 to-green-800/10 rounded-2xl p-6 border border-green-500/30 text-center">
+                <div className="w-14 h-14 bg-green-500/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <svg className="w-7 h-7 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                </div>
+                <p className="text-slate-300 font-semibold text-sm">{t.network.incentives.trial}</p>
+              </div>
+              <div className="bg-gradient-to-br from-yellow-900/20 to-yellow-800/10 rounded-2xl p-6 border border-yellow-500/30 text-center">
+                <div className="w-14 h-14 bg-yellow-500/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <svg className="w-7 h-7 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                  </svg>
+                </div>
+                <p className="text-slate-300 font-semibold text-sm">{t.network.incentives.badge}</p>
+              </div>
+              <div className="bg-gradient-to-br from-blue-900/20 to-blue-800/10 rounded-2xl p-6 border border-blue-500/30 text-center">
+                <div className="w-14 h-14 bg-blue-500/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <svg className="w-7 h-7 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                  </svg>
+                </div>
+                <p className="text-slate-300 font-semibold text-sm">{t.network.incentives.social}</p>
+              </div>
+            </div>
+          </div>
+
+          {/* CTAs */}
+          <div className="text-center">
+            <p className="text-lg text-slate-400 mb-6 italic">{t.network.tagline}</p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <button
+                disabled
+                className="px-8 py-4 bg-gradient-to-r from-purple-500 to-teal-500 hover:from-purple-600 hover:to-teal-600 text-white font-semibold rounded-2xl shadow-lg shadow-purple-500/30 transition-all transform hover:scale-105 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:scale-100"
+              >
+                {t.network.whySubscribe.cta1}
+              </button>
+              <button
+                disabled
+                className="px-8 py-4 bg-slate-800 hover:bg-slate-700 text-white font-semibold rounded-2xl border border-slate-700 hover:border-teal-500 transition-all transform hover:scale-105 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:scale-100"
+              >
+                {t.network.whySubscribe.cta2}
+              </button>
+              <button
+                disabled
+                className="px-8 py-4 bg-slate-800 hover:bg-slate-700 text-white font-semibold rounded-2xl border border-slate-700 hover:border-purple-500 transition-all transform hover:scale-105 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:scale-100"
+              >
+                {t.network.whySubscribe.cta3}
+              </button>
+            </div>
+            <p className="text-xs text-slate-500 mt-6">
+              {language === 'es' 
+                ? '🚀 Esta funcionalidad estará disponible próximamente. Registrate en la lista de espera contactándome.' 
+                : '🚀 This feature will be available soon. Register on the waiting list by contacting me.'}
+            </p>
           </div>
         </div>
       </section>
